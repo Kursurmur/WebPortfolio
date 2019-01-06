@@ -14,7 +14,7 @@ h1 {
 h2 {
 	font-family: 'Armata';
 	font-size: 1.6em;
-	color: #555;
+	color: #333;
 	margin: 5px 5px 20px 5px;
 	text-align: center;
 }
@@ -22,14 +22,14 @@ h2 {
 h3 {
 	font-family: 'Armata';
 	font-size: 1.2em;
-	color: #555;
+	color: #333;
 	margin: 5px 5px 15px 5px;
 }
 
 p {
 	font-family: 'Armata';
-	font-size: 1.2em;
-	color: #555;
+	font-size: 1em;
+	color: #333;
 	margin: 15px 5px;
 	line-height: 2em;
 }
@@ -38,7 +38,7 @@ span.contactInfo {
 	display: block;
 	font-family: 'Armata';
 	font-size: 1.2em;
-	color: #555;
+	color: #333;
 	text-align: center;
 	margin: 15px 5px;
 	font-weight: bold;
@@ -165,12 +165,12 @@ li.mainMenuItem {
 
 ul.squareBullet {
 	list-style-type: square;
-	color: #555;
+	color: #333;
 }
 
 li.squareBullet {
 	font-family: 'Armata';
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-bottom: 0.5em;
 }
 
