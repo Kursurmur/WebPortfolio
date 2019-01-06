@@ -52,10 +52,10 @@ span.internalLink {
 
 #mainView {
 	width: 100%;
-	height: 100vh;
-	min-height: auto;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
+	margin-bottom: 30px;
 }
 
 .mainLayout {
@@ -67,7 +67,7 @@ span.internalLink {
 
 #titleImg {
 	width: 100%;
-	margin-bottom: 5%;
+	margin: 5% 0px;
 }
 
 ul.mainMenu {
