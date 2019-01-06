@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WebPortfolio</title>
+        <link href='https://fonts.googleapis.com/css?family=Armata' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="src/pfStyle.css">
+    </head>
+    <body>
+        <section id="mainView"> <!--Start view-->
+            <nav class="mainLayout">
+                <img id="titleImg" src="img/JOHANNES_PELTONEN.svg"/>
+                <ul class="mainMenu"> <!--Navigation-->
+                    <li id="menuItem1" class="mainMenuItem"> <!--'About me'-->
+                        <div class="icon">
+                            <svg id="aboutIcon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                <rect id="rect1" height="100" width="100" y="0" x="0" fill="#555"/>
+                                <g id="person">
+                                    <g fill="#fff">
+                                        <path d="m50 15a20 20 0 0 0 -20 20 20 20 0 0 0 20 20 20 20 0 0 0 20 -20 20 20 0 0 0 -20 -20zm-8 16a4 4 0 0 1 4 4 4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4zm16 0a4 4 0 0 1 4 4 4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4zm-8 10a4 4 0 0 1 4 4 4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4z"/>
+                                        <path d="m25 70c0-5 5-10 10-10h30c5 0 10 5 10 10v15h-50z" fill-rule="evenodd"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="menuItemTextBlock">
+                            <span class="menuItemText">
+                                About me
+                            </span>
+                        </div>
+                    </li>
+                    <li id="menuItem2" class="mainMenuItem"> <!--'Coding experince'-->
+                        <div class="icon">
+                            <svg id="expIcon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                <rect id="rect2" height="100" width="100" y="0" x="0" fill="#555"/>
+                                <g id="bars" fill="#fff">
+                                    <rect rx="5" ry="5" height="20" width="65" y="15" x="5"/>
+                                    <rect rx="5" ry="5" height="20" width="85" y="40" x="5"/>
+                                    <rect rx="5" ry="5" height="20" width="55" y="65" x="5"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="menuItemTextBlock">
+                            <span class="menuItemText">
+                                Coding experience
+                            </span>
+                        </div>
+                    </li>
+                    <li id="menuItem3" class="mainMenuItem"> <!--'Projects'-->
+                        <div class="icon">
+                            <svg id="projectsIcon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                                <rect id="rect3" height="100" width="100" y="0" x="0" fill="#555"/>
+                                <g id="compass" fill="#fff">
+                                    <circle cx="50" cy="25" r="5"/>
+                                    <rect rx="2.5" ry="2.5" height="15" width="5" y="7.5" x="47.5"/>
+                                    <rect rx="2.5" ry="2.5" height="65" width="5" y="30" x="45" transform="rotate(15 50,25)"/>
+                                    <rect rx="2.5" ry="2.5" height="65" width="5" y="30" x="50" transform="rotate(-15 50,25)"/>
+                                    <rect rx="2.5" ry="2.5" height="5" width="50" y="45" x="25"/>
+                                    <rect rx="2.5" ry="2.5" height="15" width="5" y="40" x="47.5"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="menuItemTextBlock">
+                            <span class="menuItemText">
+                                Projects
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <div id="returnBtn" class="returnBar">
+            <svg id="returnIcon" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="60" width="60" viewBox="0 0 100 100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                <path stroke-linejoin="round" d="m20 45 30-30 30 30" stroke="#fff" stroke-linecap="round" stroke-width="10" fill="none"/>
+                <path stroke-linejoin="round" d="m50 85v-70" stroke="#fff" stroke-linecap="round" stroke-width="10" fill="none"/>
+            </svg>
+            <div class="returnTextBlock">
+                <span class="returnText">
+                    Return
+                </span>
+            </div>
+        </div>
+        <section id="subSection1" class="subSection"> <!--'About me'-->
+            <div class="sectionFrame">
+                <div id="aboutHeaderBar" class="headerBar">
+                    <div class="icon">
+                        <svg id="aboutIcon2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                            <use xlink:href="#person"/>
+                        </svg>
+                    </div>
+                    <div class="centerItems">
+                        <span class="centeredText">
+                            <h1>About me</h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="sectionTextBlock">
+                    <img id="portrait" class="centeredImg" src="img/myselfCircle.jpg"/>
+                    <span class="contactInfo">
+                        kurlainen@gmail.com
+                    </span>
+                    <p>
+                        I am a 23-year old beginner programmer living in Helsinki and studying bioinformation technology at Aalto University.
+                        I'm on my second year of studies and ready to give my contribution to the society.
+                        In addition to all the biological stuff I'm also into 3D, simulations and visually pretty things.
+                        I really hope I get to combine these things in the future: pretty biological 3D simulations!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="subSection2" class="subSection"> <!--'Coding experience'-->
+            <div class="sectionFrame">
+                <div id="expHeaderBar" class="headerBar">
+                    <div class="icon">
+                        <svg id="expIcon2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                            <use xlink:href="#bars"/>
+                        </svg>
+                    </div>
+                    <div class="centerItems">
+                        <span class="centeredText">
+                            <h1>Coding experience</h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="sectionTextBlock">
+                    <p>
+                        I listed the programming courses I've completed at Aalto university together with other programming experience I have.
+                    </p>
+                    <section class="partition">
+                        <h3>Python</h3>
+                        <ul class="squareBullet">
+                            <li class="squareBullet">
+                                CS-A1111, <b>Basic Course in Programming Y1</b>, 5 sp
+                            </li>
+                            <li class="squareBullet">
+                                CS-A1121, <b>Basic Course in Programming Y2</b>, 5 sp
+                            </li>
+                        </ul>
+                        <p>
+                            Check out <span id="projectLink1" class="internalLink">my project</span> from Basic Course in Programming Y2!
+                        </p>
+                    </section>
+                    <section class="partition">
+                        <h3>C, C++ and OpenGL</h3>
+                        <ul class="squareBullet">
+                            <li class="squareBullet">
+                                ELEC-A7100, <b>Basic Course in C programming</b>, 5 sp
+                            </li>
+                            <li class="squareBullet">
+                                ELEC-A7151, <b>Object oriented programming with C++</b>, 5 sp
+                            </li>
+                            <li class="squareBullet">
+                                CS-C3100, <b>Computer Graphics</b>, 5 sp
+                            </li>
+                        </ul>
+                        <p>I work as a course assistant at the basic course in C in spring 2019.</p>
+                        <p>
+                            There's info about <span id="projectLink2" class="internalLink">the group project</span> we did on the C++ course in Projects.
+                        </p>
+                    </section>
+                    <section class="partition">
+                        <h3>HTML, CSS and Javascript</h3>
+                        <ul class="squareBullet">
+                            <li class="squareBullet">
+                                I am self-taught and skilled enough to create this humble site :D
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="partition">
+                        <h3>Matlab</h3>
+                        <ul class="squareBullet">
+                            <li class="squareBullet">
+                                ELEC-A5140, <b>Mathematical softwares</b>, 2 sp
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="partition">
+                        <h3>Linux</h3>
+                        <ul class="squareBullet">
+                            <li class="squareBullet">
+                                ELEC-A7310, <b>Linux Basics</b>, 3 sp
+                            </li>
+                            <li class="squareBullet">
+                                I'm a Linux Mint user!
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="partition">
+                        <h3>Git</h3>
+                        <p>
+                            I've seen the horrors of merging on CS-A1121 and ELEC-A7151!
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section id="subSection3" class="subSection"> <!--'Projects'-->
+            <div class="sectionFrame">
+                <div id="projectsHeaderBar" class="headerBar">
+                    <div class="icon">
+                        <svg id="projectsIcon2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                            <use xlink:href="#compass"/>
+                        </svg>
+                    </div>
+                    <div class="centerItems">
+                        <span class="centeredText">
+                            <h1>Projects</h1>
+                        </span>
+                    </div>
+                </div>
+                <div class="sectionTextBlock">
+                    <p>
+                        Here are the projects I dare to present publically:
+                    </p>
+                    <ul class="squareBullet">
+                        <li class="squareBullet">
+                            2D physics in python
+                        </li>
+                        <li class="squareBullet">
+                            Path tracer with a GUI in C++
+                        </li>
+                        <li class="squareBullet">
+                            Web portfolio
+                        </li>
+                    </ul>
+                </div>
+                <div id="physicsSection">
+                    <div class="projectTitleArea">
+                        <h2>2D physics in python</h2>
+                        <img class="centeredImg projectThumbnail" src="img/physics.png"/>
+                    </div>
+                    <div class="sectionTextBlock">
+                        <p>
+                            On Basic Course in Programming Y2 we had about two months to write a simple program on python and pyQt5.
+                            I crafted a simple software to simulate rigid body collisions in 2D.
+                            Arbitrary convex polygons, rectangles and spheres are supported and they can be created inside the program
+                            with user given parameters. Additionally the direction of gravity can be changed from a toggle. Watch this nice little demo below:
+                        </p>
+                        <div class="aspectRatio">
+                            <iframe src="https://player.vimeo.com/video/297498384" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                        <p>
+                            I used SAT to detect collisions and to determine the collision point.
+                            The collisions are handled with the impulse response method.
+                        </p>
+                    </div>
+                </div>
+                <div id="pathTracerSection">
+                    <div class="projectTitleArea">
+                        <h2>Path tracer with a GUI in C++</h2>
+                        <img class="centeredImg projectThumbnail" src="img/susanne.png"/>
+                    </div>
+                    <div class="sectionTextBlock">
+                        <p>
+                            We made a path tracer as a group project on Object oriented programming with C++.
+                            Our team members were Aapo Pajunen, Otto Von Boehm, Sara Barroso and I and we had only one period for this project.
+                            I was mostly in charge of creating the GUI in the image below.
+                        </p>
+                        <p>
+                            In the GUI the user can move freely in a 3D scene. New objects can be added or removed and their position, rotation and size can be edited.
+                            Material attributes can be changed as well: color or texture, roughness and emission.
+                            The program supports absolute spheres and planes and triangle meshes from Wavefront obj-files.
+                            Scenes can be saved to files and loaded through the GUI. 
+                            Path tracing uses GGX importance sampling for and octrees for mesh intersection detection acceleration.
+                        </p>
+                        <p>
+                            The scene in the image represents a Cornell box with a light emitting roof, diffuse walls, a highly reflective sphere and a semi-glossy dragon.
+                        </p>
+                        <img id="guiImg" class="centeredImg" src="img/pathTracerGUI.png">
+                        <p>
+                            Below is a path tracer image of the GUI view with 200 samples per pixel.
+                        </p>
+                        <img id="renderedImg" class="centeredImg" src="img/rendered.png">
+                        <p>
+                            The GUI uses GLFW3 for opening the window and OpenGL and GLEW for rendering the 3D view in the viewport.
+                            Editing fields are created with ImGui.
+                            Meshes are loaded with tinyobjloader, glm is used for linear algebra and lode-png loads textures and saves rendered images.
+                            OpenMP parallelization is used to multihread path tracing.
+                        </p>
+                    </div> 
+                </div>
+                <div id="portfolioSection">
+                    <div class="projectTitleArea">
+                        <h2>Web portfolio</h2>
+                        <img class="centeredImg projectThumbnail" src="img/site.png"/>
+                    </div>
+                    <div class="sectionTextBlock">
+                        <p>
+                            The projects I presented above are course projects and thus they can't be published in github.
+                            That is why I decided to craft this little web portfolio for myself.
+                            I wrote the html document, stylesheet and javascript code with a text editor and drew the svg icons.
+                            The site should scale for all mainstream window sizes and work for both phone and desktop. CSS sure can be challenging sometimes!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <!--Loading script and running-->
+    <script src="src/pfCode.js"></script>
+    <script>
+        startInteractivity();
+    </script>
+</html>
