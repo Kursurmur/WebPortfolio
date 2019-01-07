@@ -83,6 +83,11 @@ li.mainMenuItem {
 	height: 100px;
 	margin-bottom: 10px;
 	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .icon {
