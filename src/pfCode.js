@@ -65,13 +65,13 @@ function ReturnBtnHandler(returnBtn) {
 
 function highLight(btn, area) {
     btn.onmouseenter = function() {
-        fill(area, "rgb(255, 157, 0)");
+        fill(area, "rgba(0, 225, 255, 0.7)");
     }
     btn.onmouseleave = function() {
         fill(area, null);
     }
     btn.addEventListener("touchstart", function() {
-        fill(area, "rgb(255, 157, 0)");
+        fill(area, "rgba(0, 225, 255, 0.7)");
     }, false);
     btn.addEventListener("touchend", function() {
         fill(area, null);
